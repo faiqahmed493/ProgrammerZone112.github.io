@@ -1,0 +1,39 @@
+.carousel-inner .simg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media (min-width: 762px) and (max-width:1024px){
+    .col-md-6 .bd-placeholder-img {
+        width: 100%; /* Full width of container */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: cover; /* Cover entire container space */
+        object-position: center; /* Center image */
+        height: 250px;
+    }
+
+    .col-md-6 .col-auto.d-lg-block {
+        flex: 1 1 auto; 
+    }
+}
+ 
+@media (max-width: 540px) {
+     .col-md-6 .bd-placeholder-img {
+         width: 100%; /* Full width of container */
+         height: auto; /* Maintain aspect ratio */
+         object-fit: cover; /* Cover entire container space */
+         object-position: center; /* Center image */
+         height: 200px;
+     }
+ 
+     .col-md-6 .col-auto.d-lg-block {
+         flex: 1 1 auto; 
+     }
+ 
+     .col-md-6 .row {
+         flex-direction: column-reverse; /* Stack text above image */
+     }
+    
+}
